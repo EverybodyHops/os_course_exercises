@@ -58,7 +58,7 @@
 （3）响应方式 中断是异步响应，异常是同步响应，系统调用同步或异步。  
 
 - 以ucore/rcore lab8的answer为例，ucore的系统调用有哪些？大致的功能分类有哪些？  
-答：进程管理：exit，fork，wait，exec，yield，kill，sleep，getpid。 
+答：进程管理：exit，fork，wait，exec，yield，kill，sleep，getpid。  
 获得时间戳：gettime。   
 文件操作（包括I/O）：open，close，read，write，seek，fstat，fsync，getcwd，getdirentry，dup，putc。  
 内存管理：pgdir。  
